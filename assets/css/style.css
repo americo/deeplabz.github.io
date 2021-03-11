@@ -43,6 +43,11 @@ section.header nav.menu ul li {
 	font-size: 15px;
 }
 
+section.header nav.menu ul li a {
+	text-decoration: none;
+	color: white;
+}
+
 /* Logo menu */
 section.header nav.menu ul li#logo img {
 	width: 30px;
@@ -74,4 +79,5 @@ div.display button {
 	margin-top: 20px;
 	font-size: 19px;
 	font-family: "BaiJamjuree-Light";
+	cursor: pointer;
 }
