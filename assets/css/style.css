@@ -100,34 +100,3 @@ div.display button {
 	width: 200px;
 }
 
-/* Sessão Sobre */
-section.sobre {
-	width: 100%;
-	
-	color: white;
-}
-
-section.sobre div {
-	width: 80%;
-	margin: 50px auto;
-	text-align: center;
-	padding: 0px 20px;
-	border-left: 2px solid #E71E3F;
-	border-right: 2px solid #E71E3F;
-	height: 200px;
-}
-
-section.sobre h3 {
-	font-family: "BaiJamjuree-Bold";
-	font-size: 25px;
-	text-align: center;
-	padding-bottom: 20px;
-}
-
-section.sobre p {
-	font-family: "BaiJamjuree-Medium";
-	color: rgba(255, 255, 255, .7);
-	vertical-align: middle;
-	font-size: 22px;
-	letter-spacing: 1px;
-}
