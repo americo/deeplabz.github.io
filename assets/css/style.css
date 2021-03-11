@@ -19,15 +19,25 @@ html, body {
 	width: 100%;
 }
 
+/* Container Header */
+div.container-header {
+	height: 100%;
+	background-image: url("../images/background-header.png");
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 /* Header */
 section.header header {
 	width: 100%;
+	position: absolute;
+	top: 0;
 }
 
 section.header {
-	height: 100%;
 	width: 100%;
-	background-image: url("../images/background-header.png");
 }
 
 /* Menu header */
@@ -60,11 +70,12 @@ div.display {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: flex-end;
 }
 
 div.display h1 {
 	font-family: "BaiJamjuree-Light";
-	font-size: 30px;
+	font-size: 40px;
 	letter-spacing: 2;
 	color: white;
 }
@@ -80,4 +91,5 @@ div.display button {
 	font-size: 19px;
 	font-family: "BaiJamjuree-Light";
 	cursor: pointer;
+	width: 200px;
 }
