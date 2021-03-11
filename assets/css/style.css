@@ -27,6 +27,7 @@ section.header header {
 section.header {
 	height: 100%;
 	width: 100%;
+	background-image: url("../images/background-header.png");
 }
 
 /* Menu header */
@@ -36,13 +37,15 @@ section.header nav.menu ul {
 
 section.header nav.menu ul li {
 	display: inline-block;
-	margin: 0px 20px;
-	font-family: "BaiJamjuree-Light";
+	margin: 20px 20px;
+	font-family: "BaiJamjuree-Medium";
+	color: white;
+	font-size: 15px;
 }
 
 /* Logo menu */
 section.header nav.menu ul li#logo img {
-	width: 70px;
+	width: 30px;
 	vertical-align: middle;
 }
 
@@ -58,6 +61,7 @@ div.display h1 {
 	font-family: "BaiJamjuree-Light";
 	font-size: 30px;
 	letter-spacing: 2;
+	color: white;
 }
 
 div.display button {
