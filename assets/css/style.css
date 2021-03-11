@@ -1,3 +1,13 @@
+@font-face {
+	font-family: "BaiJamjuree-Medium";
+	src: url("../fonts/Bai-Jamjuree/BaiJamjuree-Medium.ttf");
+}
+
+@font-face {
+	font-family: "BaiJamjuree-Light";
+	src: url("../fonts/Bai-Jamjuree/BaiJamjuree-Light.ttf");
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -43,6 +53,12 @@ div.display {
 	align-items: center;
 }
 
+div.display h1 {
+	font-family: "BaiJamjuree-Light";
+	font-size: 35px;
+	letter-spacing: 2;
+}
+
 div.display button {
 	-webkit-box-shadow: 0px 0px 2px 2px #741A3E; 
 	box-shadow: 0px 0px 2px 2px #741A3E;
@@ -50,4 +66,6 @@ div.display button {
 	background: rgba(0, 0, 0, .7);
 	color: white;
 	padding: 11px 35px 11px 35px;
+	margin-top: 20px;
+	font-size: 19px;
 }
