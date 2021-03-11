@@ -37,6 +37,7 @@ section.header nav.menu ul {
 section.header nav.menu ul li {
 	display: inline-block;
 	margin: 0px 20px;
+	font-family: "BaiJamjuree-Light";
 }
 
 /* Logo menu */
@@ -68,4 +69,5 @@ div.display button {
 	padding: 11px 35px 11px 35px;
 	margin-top: 20px;
 	font-size: 19px;
+	font-family: "BaiJamjuree-Light";
 }
