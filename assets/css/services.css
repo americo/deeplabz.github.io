@@ -62,3 +62,35 @@ section.services .container-service .service h3 {
 	transform: translateY(-50%);
 	font-size: 28px;
 }
+
+/* Serviço: Teste de Penetração; */
+
+section.services .container-service .pentest {
+	background-image: url("../images/pentest.png");
+	background-position: center;
+	background-size: contain;
+}
+
+/* Serviço: Consultoria em Segurança; */
+
+section.services .container-service .consultoria {
+	background-image: url("../images/consultoria.png");
+	background-position: center;
+	background-size: contain;
+}
+
+/* Serviço: Desenvolvimento Seguro; */
+
+section.services .container-service .desenvolvimento-seguro {
+	background-image: url("../images/desenvolvimento_seguro.png");
+	background-position: center;
+	background-size: contain;
+}
+
+/* Serviço: Treinamentos; */
+
+section.services .container-service .treinamentos {
+	background-image: url("../images/treinamentos.png");
+	background-position: center;
+	background-size: contain;
+}
