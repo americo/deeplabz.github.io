@@ -1,7 +1,8 @@
+/* Sessão de Informação */
 section.info {
 	width: 100%;
 	color: white;
-	margin-bottom: 80px;
+	margin-bottom: 90px;
 }
 
 section.info div {
@@ -18,4 +19,41 @@ section.info div h3 {
 	font-family: "BaiJamjuree-Light";
 	font-size: 30px;
 	color: #C7D1D9;
+}
+
+/* Serviços */
+h2#titulo-servicos {
+	color: white;
+	text-align: center;
+	font-family: "BaiJamjuree-Bold";
+	color: #C7D1D9;
+	font-size: 27px;
+	margin-bottom: 100px;
+}
+
+section.services {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 auto;
+}
+
+section.services .container-service {
+	display: flex;
+}
+
+section.services .container-service .service {
+	width: 50%;
+	color: white;
+	height: 280px;
+	border: 1px solid rgba(231,30,63,0.5);
+	margin: 0 20px 40px 0;
+}
+
+section.services .container-service .service:nth-of-type(2) {
+	margin-right: 0;
+}
+
+section.services .container-service .service h3 {
+	font-family: "BaiJamjuree-Medium";
 }
