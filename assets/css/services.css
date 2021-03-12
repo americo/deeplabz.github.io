@@ -56,4 +56,9 @@ section.services .container-service .service:nth-of-type(2) {
 
 section.services .container-service .service h3 {
 	font-family: "BaiJamjuree-Medium";
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 28px;
 }
