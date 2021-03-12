@@ -3,8 +3,11 @@
 <head>
 	<title>Serviços</title>
 	<meta charset="utf-8" />
+	<!-- Estilos-->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/services.css">
+	<!-- Java Script -->
+	<script type="text/javascript" src="assets/js/script.js"></script>
 </head>
 <body>
 	<div class="container-header">
@@ -39,22 +42,26 @@
 
 		<section class="services">
 			<div class="container-service">
-				<div class="service pentest">
+				<div class="service pentest" onmouseover="info_service(this)" onmouseleave="close_info(this)">
 					<h3>TESTE DE PENETRAÇÃO</h3>
+					<p>Realizamos testes de penetração ou invasão em sistemas, infraestruturas e aplicativos web ou mobile para avaliar a segurança, simulando um ataque malicioso externo.</p>
 				</div><!--service-->
 
-				<div class="service consultoria">
+				<div class="service consultoria" onmouseover="info_service(this)" onmouseleave="close_info(this)">
 					<h3>CONSULTORIA EM SEGURANÇA</h3>
+					<p>Fornecemos especialistas em produtos específicos para configurar sistemas que atenuem as ameaças cibernéticas, permitindo que a equipe se concentre em outras metas enquanto se concentra no gerenciamento de riscos.</p>
 				</div><!--service-->
 			</div><!--container-service-->
 
 			<div class="container-service">
-				<div class="service desenvolvimento-seguro">
+				<div class="service desenvolvimento-seguro" onmouseover="info_service(this)" onmouseleave="close_info(this)">
 					<h3>DESENVOLVIMENTO SEGURO</h3>
+					<p>Criamos websites e aplicações web ou plataformas web utilizando os métodos de desenvolvimento seguro, para assim conseguirmos garantir a segurança.</p>
 				</div><!--service-->
 
-				<div class="service treinamentos">
+				<div class="service treinamentos" onmouseover="info_service(this)" onmouseleave="close_info(this)">
 					<h3>TREINAMENTOS</h3>
+					<p>Realizamos treinamentos online para empresas, e cursos para pessoas que desejam aprender e trabalhar com Segurança da Informação ou Desenvolvimento.</p>
 				</div><!--service-->
 			</div><!--container-service-->
 		</section>

@@ -42,8 +42,8 @@ section.services .container-service {
 	display: flex;
 }
 
-section.services .container-service .service {
-	width: 50%;
+section.services .container-service .service{
+	width: 100%;
 	color: white;
 	height: 280px;
 	border: 1px solid rgba(231,30,63,0.5);
@@ -61,6 +61,7 @@ section.services .container-service .service h3 {
 	top: 50%;
 	transform: translateY(-50%);
 	font-size: 28px;
+	text-shadow: 1px 1px rgba(0, 0, 0, .6);
 }
 
 /* Serviço: Teste de Penetração; */
@@ -93,4 +94,15 @@ section.services .container-service .treinamentos {
 	background-image: url("../images/treinamentos.png");
 	background-position: center;
 	background-size: contain;
+}
+
+/* Infos dos serviços */
+section.services .container-service .service p {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	font-family: "BaiJamjuree-Medium";
+	display: none;
+	text-shadow: 1px 1px rgba(0, 0, 0, .6);
+	font-size: 17px;
 }
