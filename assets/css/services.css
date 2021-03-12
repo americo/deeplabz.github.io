@@ -1,0 +1,21 @@
+section.info {
+	width: 100%;
+	color: white;
+	margin-bottom: 80px;
+}
+
+section.info div {
+	width: 80%;
+	margin: 50px auto;
+	text-align: center;
+	padding: 0px 20px;
+	border-left: 2px solid #E71E3F;
+	border-right: 2px solid #E71E3F;
+	height: 100px;
+}
+
+section.info div h3 {
+	font-family: "BaiJamjuree-Light";
+	font-size: 30px;
+	color: #C7D1D9;
+}
